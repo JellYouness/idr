@@ -1350,106 +1350,99 @@
         <div class="luxury-divider"></div>
     </div>
     
-   <!-- Contact Section -->
-<section id="contact" class="py-24 sm:py-32 bg-darker/50 backdrop-blur-sm relative rounded-luxury">
-    <div class="container mx-auto px-4 sm:px-6">
-        <div class="text-center mb-16 sm:mb-20 fade-in">
-            <p class="text-purple uppercase tracking-[0.3em] text-sm mb-3">Inquiries</p>
-            <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 font-serif">Get in <span class="text-purple">Touch</span></h2>
-            <div class="w-24 h-px bg-purple mx-auto mb-8"></div>
-            <p class="text-gray-300 max-w-2xl mx-auto">
-                Interested in collaborating? Let's discuss your project and create something extraordinary together.
-            </p>
-        </div>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 sm:gap-16">
-            <div class="fade-in">
-                <!-- Success/Error Messages -->
-                <div id="form-success" class="hidden mb-6 p-4 bg-green-900/50 border border-green-500 text-green-100 rounded-luxury-sm">
-                    Thank you! Your message has been sent successfully.
-                </div>
-                <div id="form-error" class="hidden mb-6 p-4 bg-red-900/50 border border-red-500 text-red-100 rounded-luxury-sm">
-                    Oops! Something went wrong. Please try again later.
-                </div>
-                
-                <form id="contact-form" action="https://formspree.io/f/xbjndoyy" method="POST" class="bg-gray-dark p-8 sm:p-10 border border-purple/10 rounded-luxury">
-                    <div class="mb-8">
-                        <label for="name" class="block text-sm font-medium text-gray-300 mb-2 uppercase tracking-wider">Name</label>
-                        <input type="text" id="name" name="name" class="w-full px-4 py-3 bg-gray-light border border-purple/10 focus:outline-none focus:border-purple text-white rounded-luxury-sm form-input" placeholder="Your name" required>
-                    </div>
-                    <div class="mb-8">
-                        <label for="email" class="block text-sm font-medium text-gray-300 mb-2 uppercase tracking-wider">Email</label>
-                        <input type="email" id="email" name="email" class="w-full px-4 py-3 bg-gray-light border border-purple/10 focus:outline-none focus:border-purple text-white rounded-luxury-sm form-input" placeholder="Your email" required>
-                    </div>
-                    <div class="mb-8">
-                        <label for="subject" class="block text-sm font-medium text-gray-300 mb-2 uppercase tracking-wider">Subject</label>
-                        <input type="text" id="subject" name="subject" class="w-full px-4 py-3 bg-gray-light border border-purple/10 focus:outline-none focus:border-purple text-white rounded-luxury-sm form-input" placeholder="Subject" required>
-                    </div>
-                    <div class="mb-8">
-                        <label for="message" class="block text-sm font-medium text-gray-300 mb-2 uppercase tracking-wider">Message</label>
-                        <textarea id="message" name="message" rows="5" class="w-full px-4 py-3 bg-gray-light border border-purple/10 focus:outline-none focus:border-purple text-white resize-none rounded-luxury-sm form-input" placeholder="Your message" required></textarea>
-                    </div>
-                    <button type="submit" class="w-full py-3 bg-purple text-dark rounded-full transition-all duration-300 transform hover-target luxury-btn uppercase tracking-wider text-sm font-medium">
-                        Send Message
-                    </button>
-                </form>
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 sm:py-32 bg-darker/50 backdrop-blur-sm relative rounded-luxury">
+        <div class="container mx-auto px-4 sm:px-6">
+            <div class="text-center mb-16 sm:mb-20 fade-in">
+                <p class="text-purple uppercase tracking-[0.3em] text-sm mb-3">Inquiries</p>
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 font-serif">Get in <span class="text-purple">Touch</span></h2>
+                <div class="w-24 h-px bg-purple mx-auto mb-8"></div>
+                <p class="text-gray-300 max-w-2xl mx-auto">
+                    Interested in collaborating? Let's discuss your project and create something extraordinary together.
+                </p>
             </div>
             
-            <div class="fade-in">
-                <div class="bg-gray-dark p-8 sm:p-10 h-full border border-purple/10 rounded-luxury">
-                    <h3 class="text-2xl font-semibold mb-8 font-serif">Contact Information</h3>
-                    <div class="space-y-8">
-                        <div class="flex items-start">
-                            <div class="text-purple text-xl mr-6">
-                                <i class="fas fa-envelope"></i>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 sm:gap-16">
+                <div class="fade-in">
+                    <form class="bg-gray-dark p-8 sm:p-10 border border-purple/10 rounded-luxury">
+                        <div class="mb-8">
+                            <label for="name" class="block text-sm font-medium text-gray-300 mb-2 uppercase tracking-wider">Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 bg-gray-light border border-purple/10 focus:outline-none focus:border-purple text-white rounded-luxury-sm form-input" placeholder="Your name">
+                        </div>
+                        <div class="mb-8">
+                            <label for="email" class="block text-sm font-medium text-gray-300 mb-2 uppercase tracking-wider">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 bg-gray-light border border-purple/10 focus:outline-none focus:border-purple text-white rounded-luxury-sm form-input" placeholder="Your email">
+                        </div>
+                        <div class="mb-8">
+                            <label for="subject" class="block text-sm font-medium text-gray-300 mb-2 uppercase tracking-wider">Subject</label>
+                            <input type="text" id="subject" class="w-full px-4 py-3 bg-gray-light border border-purple/10 focus:outline-none focus:border-purple text-white rounded-luxury-sm form-input" placeholder="Subject">
+                        </div>
+                        <div class="mb-8">
+                            <label for="message" class="block text-sm font-medium text-gray-300 mb-2 uppercase tracking-wider">Message</label>
+                            <textarea id="message" rows="5" class="w-full px-4 py-3 bg-gray-light border border-purple/10 focus:outline-none focus:border-purple text-white resize-none rounded-luxury-sm form-input" placeholder="Your message"></textarea>
+                        </div>
+                        <button type="submit" class="w-full py-3 bg-purple text-dark rounded-full transition-all duration-300 transform hover-target luxury-btn uppercase tracking-wider text-sm font-medium">
+                            Send Message
+                        </button>
+                        
+                    </form>
+                </div>
+                
+                <div class="fade-in">
+                    <div class="bg-gray-dark p-8 sm:p-10 h-full border border-purple/10 rounded-luxury">
+                        <h3 class="text-2xl font-semibold mb-8 font-serif">Contact Information</h3>
+                        <div class="space-y-8">
+                            <div class="flex items-start">
+                                <div class="text-purple text-xl mr-6">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium mb-2 uppercase tracking-wider text-sm">Email</h4>
+                                    <p class="text-gray-300">idrissioussama001@gmail.com</p>
+                                </div>
                             </div>
-                            <div>
-                                <h4 class="font-medium mb-2 uppercase tracking-wider text-sm">Email</h4>
-                                <p class="text-gray-300">idrissioussama001@gmail.com</p>
+                            <div class="flex items-start">
+                                <div class="text-purple text-xl mr-6">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium mb-2 uppercase tracking-wider text-sm">Phone</h4>
+                                    <p class="text-gray-300">+212 615-402961</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="text-purple text-xl mr-6">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium mb-2 uppercase tracking-wider text-sm">Location</h4>
+                                    <p class="text-gray-300">Casablanca, Maroc</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="flex items-start">
-                            <div class="text-purple text-xl mr-6">
-                                <i class="fas fa-phone"></i>
+                        
+                        <div class="mt-16">
+                            <h3 class="text-2xl font-semibold mb-8 font-serif">Connect</h3>
+                            <div class="flex space-x-6">
+                                <a href="https://www.instagram.com/idr_ou/" class="w-12 h-12 border border-purple/20 flex items-center justify-center text-purple transition-colors duration-300 hover-target rounded-full social-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://wa.link/g5rm2q" class="w-12 h-12 border border-purple/20 flex items-center justify-center text-purple transition-colors duration-300 hover-target rounded-full social-icon">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                                <a href="#" class="w-12 h-12 border border-purple/20 flex items-center justify-center text-purple transition-colors duration-300 hover-target rounded-full social-icon">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                                <a href="#" class="w-12 h-12 border border-purple/20 flex items-center justify-center text-purple transition-colors duration-300 hover-target rounded-full social-icon">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
                             </div>
-                            <div>
-                                <h4 class="font-medium mb-2 uppercase tracking-wider text-sm">Phone</h4>
-                                <p class="text-gray-300">+212 615-402961</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start">
-                            <div class="text-purple text-xl mr-6">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-medium mb-2 uppercase tracking-wider text-sm">Location</h4>
-                                <p class="text-gray-300">Casablanca, Maroc</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="mt-16">
-                        <h3 class="text-2xl font-semibold mb-8 font-serif">Connect</h3>
-                        <div class="flex space-x-6">
-                            <a href="https://www.instagram.com/idr_ou/" class="w-12 h-12 border border-purple/20 flex items-center justify-center text-purple transition-colors duration-300 hover-target rounded-full social-icon">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="https://wa.link/g5rm2q" class="w-12 h-12 border border-purple/20 flex items-center justify-center text-purple transition-colors duration-300 hover-target rounded-full social-icon">
-                                <i class="fa-brands fa-whatsapp"></i>
-                            </a>
-                            <a href="#" class="w-12 h-12 border border-purple/20 flex items-center justify-center text-purple transition-colors duration-300 hover-target rounded-full social-icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                            <a href="#" class="w-12 h-12 border border-purple/20 flex items-center justify-center text-purple transition-colors duration-300 hover-target rounded-full social-icon">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
     
     <!-- Footer -->
     <footer class="py-12 sm:py-16 bg-dark/80 backdrop-blur-sm border-t border-purple/10">
@@ -1532,57 +1525,15 @@
                 cursorDot.style.top = e.clientY + 'px';
             });
             
-           // Form submission with Formspree
-const contactForm = document.getElementById('contact-form');
-const formSuccess = document.getElementById('form-success');
-const formError = document.getElementById('form-error');
-
-if (contactForm) {
-    contactForm.addEventListener('submit', async function(e) {
-        e.preventDefault();
-        
-        const submitBtn = this.querySelector('button[type="submit"]');
-        const originalBtnText = submitBtn.textContent;
-        
-        // Show loading state
-        submitBtn.disabled = true;
-        submitBtn.textContent = 'Sending...';
-        
-        // Hide previous messages
-        formSuccess.classList.add('hidden');
-        formError.classList.add('hidden');
-        
-        try {
-            const formData = new FormData(this);
-            const response = await fetch(this.action, {
-                method: 'POST',
-                body: formData,
-                headers: {
-                    'Accept': 'application/json'
-                }
-            });
-            
-            if (response.ok) {
-                // Show success message
-                formSuccess.classList.remove('hidden');
-                this.reset();
-                
-                // Scroll to show message
-                formSuccess.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-            } else {
-                throw new Error('Form submission failed');
+            // Form submission (demo)
+            const form = document.querySelector('form');
+            if (form) {
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    alert('This is a demo contact form. In a real implementation, this would send your message.');
+                    form.reset();
+                });
             }
-        } catch (error) {
-            console.error('Error:', error);
-            formError.classList.remove('hidden');
-            formError.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        } finally {
-            // Reset button
-            submitBtn.disabled = false;
-            submitBtn.textContent = originalBtnText;
-        }
-    });
-}
             
             // MacBook hover effect
             const macbookScreen = document.querySelector('.macbook-screen');
